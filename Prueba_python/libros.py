@@ -27,7 +27,6 @@ def add_book(library):
         except ValueError:
             print("Enter a valid parameter\n")
             
-
     
         try:
             categoria=str(input("Enter book category: "))
